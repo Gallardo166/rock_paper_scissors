@@ -11,3 +11,15 @@ function getComputerChoice() {
     return computerChoice = choices[choiceNumber];
 //return computerChoice
 };
+
+//create a function called win that does the following
+    function win() {
+    //return a text displaying "You win! {playerSelection} beats {computerSelection}"
+        return `You win! ${playerSelection} beats ${computerSelection}`;
+    };
+    
+//create a function called lose that does the following
+    function lose() {
+    //return a text displaying "You lose! {computerSelection} beats {playerSelection}"
+        return `You lose! ${computerSelection} beats ${playerSelection}`;
+    };
